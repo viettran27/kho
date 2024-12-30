@@ -19,4 +19,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    hmr: {
+      overlay: false,
+      protocol: 'polling',
+    },
+  }
 })
