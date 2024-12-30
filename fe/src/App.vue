@@ -53,7 +53,7 @@
 </script>
 
 <template>
-  <div class="container flex flex-col py-2 relative h-[100vh] overflow-hidden">
+  <div class="container flex flex-col py-2 relative h-[100svh] overflow-hidden">
     <div class="flex justify-center">
       <app-button class="w-full" @click="barcodeData = []; total = 0; estimate = null">Kiểm tra mới</app-button>
     </div>
