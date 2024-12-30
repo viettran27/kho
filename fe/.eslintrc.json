@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": ["*.vue", "*.js"],
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
+    }
+  ]
+}
