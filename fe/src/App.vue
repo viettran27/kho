@@ -38,7 +38,7 @@
       "datetime": new Date()
     }
 
-    barcodeData.value = [...barcodeData.value, row]
+    barcodeData.value = [row, ...barcodeData.value]
     total.value = barcodeData.value.length
   }
 
